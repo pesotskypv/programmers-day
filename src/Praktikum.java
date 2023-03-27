@@ -9,9 +9,9 @@ public class Praktikum {
 
         if (isLeapYear(year)) {
             // здесь нужно вывести результат
-            System.out.println("13.09." + year);
-        } else {
             System.out.println("12.09." + year);
+        } else {
+            System.out.println("13.09." + year);
         }
     }
 
